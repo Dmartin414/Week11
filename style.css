@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+    font-size: 85px;
+    color: green;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: green;
+}
+.player-container {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+.player1-box {
+    text-align: left;
+    font-size: 35px;
+    color: green;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: green;
+    padding: 15px;
+}
+
+.player2-box {
+    text-align: right;
+    font-size: 35px;
+    color: green;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: green;
+    padding: 15px;
+}
+
+.highlight {
+    border: 5px solid green;
+    background-color: beige;
+}
+
+body {
+    background-image: url('https://media.istockphoto.com/id/624703258/vector/watermelon-background-with-black-seeds.jpg?s=612x612&w=0&k=20&c=T9GjsQj2t8KbHXb8vOD4KDWphQ03bV7nsa8suEgO8vw=');
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+td {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
+    border: 5px solid green;
+    font-size: 40px;
+}
+
+td.p1 {
+    color: red;
+}
+
+td.p2 {
+    color: green;
+}
+
+.center {   
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    }  
+    button {  
+    background-color: beige;  
+    color: green;  
+    font-size: 25px;  
+    }  
